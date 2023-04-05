@@ -1,0 +1,112 @@
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  margin-top: 40px;
+  
+}
+#tag {
+  display: flex;
+  flex-direction: column !important;
+}
+#topLogo{
+  height: 50px;
+  float:left
+}
+.nav ul {
+  display: flex;
+  /* justify-content: flex-end; */
+  list-style-type: none;
+  float: right;
+}
+
+
+body {
+  /* padding-top: 40px; */
+  margin: auto;
+  width: 900px;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  /* font-family: 'yellow tail', cursive; */
+	display: inline;
+}
+a {
+  font-family: ‘Source Sans Pro’, sans-serif;
+  font-size: 15px;
+  float: right;
+  color: gray;
+}
+p {
+  font-family: ‘Source Sans Pro’, sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+h2 {
+  /* float: left !important; */
+  font-family: ‘Yellowtail’, cursive;
+  font-size: x-large;
+}
+div{
+  width: 100%;
+}
+#c2{
+  float: right;
+}
+#card{
+  
+  display: flex;
+  margin-bottom: 35px;
+  margin-left: 100px;
+  font-family: 'Patrick Hand';
+  background-image: url('/images/list-bg.png');
+}
+#c1 {
+  margin-left: 150px;
+}
+#crossed {
+  text-decoration: line-through;
+}
+#author {
+  display: flex;
+  height: 90px;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+button {
+  height: 50px;
+  background-color: rgb(215, 6, 6);
+  color: white;
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 120px;
+}
+#botline {
+  height: 13px;
+  background-color: rgb(198, 196, 196);
+}
+.prefooter{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  padding-bottom: 30px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  color: gray;
+  /* height: 400px */
+}
+#vanLady {
+padding-right: 20px;
+float: left;
+}
+#logo{
+  /* padding-bottom: 40px; */
+  float: center;
+
+}
