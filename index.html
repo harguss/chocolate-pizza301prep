@@ -8,18 +8,25 @@
   <title>Chocolate Pizza</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel=“preconnect” href=“https://fonts.googleapis.com”>
+  <link rel=“preconnect” href=“https://fonts.gstatic.com” crossorigin>
+  <link href=“https://fonts.googleapis.com/css2?family=Yellowtail&display=swap” rel=“stylesheet”>
+  <link href=“https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Yellowtail&display=swap” rel=“stylesheet”>
+  <link href=“https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap” rel=“stylesheet”>
+
 </head>
-
-
-
 
 <body>
   <nav>
-    <section>
-      <img id="topLogo" src="images/logo.png" alt="small silverware logo">
-      <figcaption id='title'>Delicious</figcaption>
-      <figcaption>THE BEST FOOD BLOG ON THE WEB</figcaption>
+    <img id="topLogo" src="images/logo.png" alt="small silverware logo">
+
+    <div id="tag">
+      <h2>Delicious</h2>
+      <a>THE BEST FOOD BLOG ON THE WEB</a>
+    </div>
+
+    <section class="nav">
       <ul>
         <li><img src="images/fb-icon.png" alt="fb icon"></li>
         <li><img src="images/twit-icon.png" alt="twitter icon"></li>
@@ -32,11 +39,14 @@
       </ul>
     </section>
   </nav>
-  <hr>
-  <h1>Chocolate Pizza</h1>
-  <p>Posted ON 15 DEC 2013/DESSERTS
-    <a><img src="images/print-icon.png" alt="print icon">PRINT</a>
-  </p>
+  <header>
+    <br>
+    <hr>
+    <h1>Chocolate Pizza</h1>
+    <p>Posted ON 15 DEC 2013/DESSERTS
+      <a><img src="images/print-icon.png" alt="print icon">PRINT</a>
+    </p>
+  </header>
   <p>
   <div><img src="images/choco-pizza.png" alt="choco pizza"></div>
   </p>
@@ -53,7 +63,8 @@
     maxime rerum dolor, amet odio nam obcaecati totam quisquam quibusdam est commodi, eveniet rem! Doloribus, magni!
   </p>
 
-  <section>
+  <section id="card">
+    <!-- <img id="list" src="images/list-bg.png"> -->
     <ul id='c1'>
       <input type="checkbox" id="vehicle1" name="vehicle1" value="">
       <label for="vehicle1">1 1/2 cups milk</label><br>
@@ -85,9 +96,9 @@
     </ul>
   </section>
 
-  <hr>
-  <div>
-    <img src="images/van-pic.png" alt="woman author">
+  <hr id="botline">
+  <section class="prefooter">
+    <img id="vanLady" src="images/van-pic.png" alt="woman author">
     <br>
 
     <p>
@@ -97,22 +108,17 @@
       Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
     </p>
     <button>SHARE RECIPE</button>
-
-  </div>
+  </section>
+  
   <footer>
-    <hr>
-    <img src="images/small-logo.png" alt="">
+   <br> <hr>
+    <img id="logo" src="images/small-logo.png" alt="">
+   
     <br>
-    Delicious 2013 AllRights Reserved <br>Proudly published with Ghost.
+    <p>
+      Delicious 2013 AllRights Reserved <br>Proudly published with Ghost.
+    </p>
   </footer>
-
-
-
-
-
-
-
-
   <script src="" async defer></script>
 </body>
 
